@@ -1,0 +1,461 @@
+:root {
+  
+    /* sizes */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+  }
+  
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+  
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    background-color: #2FDD92;
+    overflow-x: hidden;
+
+}
+
+.treesection{
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 5% 5% 0 5% ;
+    margin-bottom: 0;
+}
+
+.tree_title{
+    color: #F2DFCE;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bolder 900;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.tree_title2{
+    margin-top: 1.2rem;
+    color: #8B573E;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.plant{
+    margin-top: 3.3rem;
+    margin-bottom: 0;
+}
+
+.bee1{
+    position: absolute;
+    top: 5px;
+    left: 470px;
+}
+
+.bee2{
+    position: absolute;
+    top: 200px;
+    right: 500px;
+}
+
+
+/* header section */
+.header_section{
+    text-align: center;
+}
+
+.header_section_div{
+    padding: 0 18% 0 18%;
+}
+
+.header_image{
+    position: relative;
+    width:  11rem;
+    height: 11rem;
+    bottom: 2.5rem;
+}
+
+.headersection_p{
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--size-xl);
+    text-align: justify;
+}
+
+/* skills section */
+
+.Skills_section{
+    text-align: center;
+}
+
+.Skill_title{
+    margin-top: 3rem;
+}
+
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xs */
+@media (min-width: 475px) {
+    
+.container-fluid{
+    padding: 20% 5%;
+}
+
+.tree_title{
+    margin-top: 0.5rem;
+    color: #F2DFCE;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bolder 900;
+    font-style: normal;
+    font-size: var(--size-3xl);
+}
+
+.tree_title2{
+    margin-top: 1.2rem;
+    color: #8B573E;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: var(--size-2xl);
+}
+
+.plant{
+    margin-top: 2.5rem;
+    width: 400px;
+    height: 400px;
+}
+
+.bee1{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+.bee2{
+    position: absolute;
+    top: 230px;
+    right: 15px;
+    width: 85px;
+    height: 85px;
+}
+
+.header_section{
+    text-align: center;
+}
+
+.header_section_div{
+    padding: 0 5% 0 5%;
+}
+
+.header_image{
+    position: relative;
+    width:  8rem;
+    height: 8rem;
+    bottom: 2.5rem;
+}
+
+.headersection_p{
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--size-base);
+    text-align: justify;
+}
+
+
+
+}
+
+/* sm */
+@media (min-width: 640px) {
+       
+.container-fluid{
+    padding: 10% 5%;
+}
+
+.tree_title{
+    color: #F2DFCE;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bolder 900;
+    font-style: normal;
+    font-size: var(--size-3xl);
+}
+
+.tree_title2{
+    margin-top: 1.2rem;
+    color: #8B573E;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: var(--size-2xl);
+}
+
+.plant{
+    margin-top: 2.5rem;
+    width: 450px;
+    height: 450px;
+}
+
+.bee1{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+.bee2{
+    position: absolute;
+    top: 230px;
+    right: 15px;
+    width: 85px;
+    height: 85px;
+}
+
+.header_section_div{
+    padding: 5% 8% 0 8%;
+}
+
+.header_image{
+    position: relative;
+    width:  8rem;
+    height: 8rem;
+    bottom: 2.5rem;
+}
+
+}
+
+/* md */
+@media (min-width: 768px) {
+       
+.container-fluid{
+    padding: 10% 5%;
+}
+
+.tree_title{
+    margin-top: 0.5rem;
+    color: #F2DFCE;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bolder 900;
+    font-style: normal;
+    font-size: var(--size-4xl);
+}
+
+.tree_title2{
+    margin-top: 1.2rem;
+    color: #8B573E;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: var(--size-3xl);
+}
+
+.plant{
+    margin-top: 2.5rem;
+    width: 450px;
+    height: 450px;
+}
+
+.bee1{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.bee2{
+    position: absolute;
+    top: 230px;
+    right: 15px;
+    width: 110px;
+    height: 110px;
+}
+
+.header_section_div{
+    padding: 5% 10% 0 10%;
+}
+
+.header_image{
+    position: relative;
+    width:  9rem;
+    height: 9rem;
+    bottom: 2.5rem;
+}
+
+.headersection_p{
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--size-md);
+    text-align: justify;
+}
+
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container-fluid{
+        padding: 10% 5%;
+    }
+    
+    .tree_title{
+        margin-top: 0.5rem;
+        color: #F2DFCE;
+        font-family: "Libre Baskerville", serif;
+        font-weight: bolder 900;
+        font-style: normal;
+        font-size: var(--size-4xl);
+    }
+    
+    .tree_title2{
+        margin-top: 1.2rem;
+        color: #8B573E;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: var(--size-3xl);
+    }
+    
+    .plant{
+        margin-top: 2.5rem;
+        width: 450px;
+        height: 450px;
+    }
+    
+    .bee1{
+        position: absolute;
+        top: 8px;
+        left: 200px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .bee2{
+        position: absolute;
+        top: 230px;
+        right: 250px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .header_section_div{
+        padding: 0 15% 0 15%;
+    }
+    
+    .header_image{
+        position: relative;
+        width:  10rem;
+        height: 10rem;
+        bottom: 2.5rem;
+    }
+    
+    .headersection_p{
+        font-family: "Arimo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: var(--size-2xl);
+        text-align: justify;
+        line-height: 1.5;
+    }
+    
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .container-fluid{
+        padding: 8% 5%;
+    }
+    
+    .tree_title{
+        margin-top: 0.5rem;
+        color: #F2DFCE;
+        font-family: "Libre Baskerville", serif;
+        font-weight: bolder 900;
+        font-style: normal;
+        font-size: var(--size-5xl);
+    }
+    
+    .tree_title2{
+        margin-top: 1.2rem;
+        color: #8B573E;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: var(--size-4xl);
+    }
+    
+    .plant{
+        margin-top: 2.5rem;
+        width: 450px;
+        height: 450px;
+    }
+    
+    .bee1{
+        position: absolute;
+        top: 8px;
+        left: 400px;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .bee2{
+        position: absolute;
+        top: 230px;
+        right: 400px;
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
